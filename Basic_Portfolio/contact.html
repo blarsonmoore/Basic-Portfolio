@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,48 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css" />
     <script src="main.js"></script>
 </head>
-<header>
-            
-        <!--This is for the nav bar-->
-        <ul>
-                <li class="name"><strong><a href="#">Blake Moore</a></strong></li>
-                <li class="about"><strong><a href="#">About</a></strong></li>
-                <li class="portfolio"><strong><a href="#">Portfolio</a></strong></li>
-                <li class="contact"><strong><a href="#">Contact</a></strong></li>
-            </ul>
-        </header>
-<body>
-    <div class="container">
-        <form action="#" method="submit">
-            Name: <input type="text" name="name" placeholder="Bob Bobby">
-            Phone Number: <input type="text" name="pnumber" placeholder="555-555-5555">
-            E-Mail: <input type="text" name="email" placeholder="bob@bob.com">
-            Message: <input type="text" name="message">
-            <input type="submit" value="submit">
-        </form>
 
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="header-content">
+                <div class="nav">
+                    <ul>
+                        <li class="name">Blake Moore</a>
+                        </li>
+                        <li class="aboutme">
+                            <a href="./index.html">About</a>
+                        </li>
+                        <li class="portfolio">
+                            <a href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="contact">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Main Content Area-->
+        <section id="main-content">
+            <div class="container">
+                <div class="form-container">
+                    <h1>Contact</h1>
+                    <form action="#" method="submit">
+                            <label for="fname">Name</label>                                                <input type="text" id="name" name="name" placeholder="Your name..">
+                            <label for="fname">Phone</label>                                               <input type="text" id="phone" name="pnumber" placeholder="555-555-5555">
+                            <label for="fname">Email</label>                                                <input type="text" id="email" name="mail" placeholder="johnsmith@smith.com">
+                            <label for="fname">Message</label>                                                <input type="text" id="message" name="message" placeholder="Message">
+
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <p>Copyright</p>
+        </div>
     </div>
 </body>
- <!-- Footer Code-->
- <footer>
-        Copyright&copy;
-    </footer>
+
 </html>
